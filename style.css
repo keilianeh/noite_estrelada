@@ -1,6 +1,31 @@
+body {
+    background-color: aliceblue;
+}
+img{width: 700px;
+text-align: center;
+}
 header {
     background-color: magenta;
     color: black;
-    text-align: center;
-padding: 20px;
+    text-align:center  
 }
+.container {
+    display: flex;
+border-style: solid;
+border-color: black;
+}
+.texto {
+    flex:1;
+    padding: 5%;
+    text-align: left;
+} 
+.imagem {
+    flex: 2;
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+
+
