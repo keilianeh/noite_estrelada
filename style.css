@@ -1,31 +1,43 @@
 body {
     background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
+
 img{width: 700px;
 text-align: center;
+max-width: 100%;
+margin:center;
+display: block;
 }
+
 header {
     background-color: magenta;
     color: black;
     text-align:center  
+    padding:20px;
 }
+
+a.hover{
+    color: aliceblue;
+    transition: color 0.3s ease;
+}
+
 .container {
     display: flex;
 border-style: solid;
 border-color: black;
 }
+
 .texto {
     flex:1;
     padding: 5%;
     text-align: left;
 } 
+
 .imagem {
+    display: flex;
+    justify-content: center;
     flex: 2;
     text-align: center;
-    padding: 5%;
-}
-
-
-
-
-
+    padding: 5%;}
