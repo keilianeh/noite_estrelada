@@ -24,8 +24,11 @@ a.hover{
 }
 nav{
     background-color: aqua;
-    text-align: center;
-    
+    text-align: center; 
+}
+nav ul{
+    list-style: none;
+    padding: 0;
 }
 
 .container {
