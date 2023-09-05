@@ -12,7 +12,7 @@ display: block;
 }
 
 header {
-    background-color: magenta;
+    background-color: rgb(76, 0, 255);
     color: black;
     text-align:center  
     padding:20px;
@@ -22,13 +22,20 @@ a.hover{
     color: aliceblue;
     transition: color 0.3s ease;
 }
+
 nav{
     background-color: aqua;
     text-align: center; 
 }
+
 nav ul{
     list-style: none;
     padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
 }
 
 .container {
