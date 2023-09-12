@@ -26,7 +26,9 @@ a.hover{
 
 nav{
     background-color: aqua;
+    color: aliceblue;
     text-align: center; 
+    margin: 0%;
 }
 
 nav ul{
