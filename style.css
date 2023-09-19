@@ -71,3 +71,15 @@ border-color: black;
     flex: 2;
     text-align: center;
     padding: 5%;}
+
+        .sobre-titulo{
+            font-size: 32px;
+            color: aqua;
+            margin-bottom: 50px;
+        }
+        .sobre-texto{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            line-height: 2.0;
+            
+        }
