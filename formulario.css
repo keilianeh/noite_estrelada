@@ -31,3 +31,5 @@ label{
     font-size: 18px;
     transition: background-color 0.3s;
  }
+ imput[type="submit"]: :hover
+ {background-color #00b32 }
